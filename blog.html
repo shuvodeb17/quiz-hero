@@ -1,15 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
     <title>Blog</title>
-</head>
-<body>
-    
-    <h1>Blog</h1>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-800">
 
 
-</body>
+
+
+    <div class="container mx-auto">
+        <h1 class="text-4xl text-white">Blog</h1>
+        
+        <div class="card bg-base-100 shadow-xl">
+            <div class="card-body">
+              <h2 class="card-title">1. What is the difference between map(), filter(), forEach(), find() ?</h2>
+              <p>
+                Ans: map() loops over each element in an array. It creates a new array. Does not modify the original array. filter() is used on arrays. Given a condition in filter , it checks each element of the array. Creates a new array that satisfies the condition. forEach() is used to check each element of an array. It does not change the array. It returns undefined. Given a condition in find(), if multiple elements of an array match, it will return only the first element as an object.
+            </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="card mt-5 bg-base-100 shadow-xl">
+            <div class="card-body">
+              <h2 class="card-title">2. What is the difference between localStorage, sessionStorage, cookie?</h2>
+              <p>
+                Ans: By storing the data in localStorage, if the user deletes the browser tab and visits the website again, he can access it.
+
+                If the data is stored in sessionStorage then all the data will be lost if the user deletes the tab. It improves website performance.
+                
+                Cookies are a good choice for storing data that should not be retained for long periods of time.
+            </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="card mt-5 bg-base-100 shadow-xl">
+            <div class="card-body">
+              <h2 class="card-title">3. What is the event loop and how does it work?</h2>
+              <p>Ans: The event loop works by making a request to some internal or external "event provider" (that generally blocks the request until an event has arrived), then calls the relevant event handler.</p>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="card mt-5 bg-base-100 shadow-xl">
+            <div class="card-body">
+              <h2 class="card-title">4. What is the function of quizTimer function?</h2>
+              <p>Ans: The job of the quizTimer function is to calculate the time spent answering the questions.</p>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="card mt-5 bg-base-100 shadow-xl">
+            <div class="card-body">
+              <h2 class="card-title">5. What is the function of chooseQuiz function?</h2>
+              <p>Ans: The job of the chooseQuiz function is to store the answer options of the question in an object.
+            </p>
+            </div>
+          </div>
+    </div>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
 </html>
